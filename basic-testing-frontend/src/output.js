@@ -12,5 +12,5 @@ export function generateResultText(calculationResult) {
 
 export function outputResult(resultText) {
   const output = document.getElementById("result");
-  output.textContext = resultText;
+  output.textContent = resultText;
 }
